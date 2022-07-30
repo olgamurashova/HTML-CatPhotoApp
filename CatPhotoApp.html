@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
     <body>
         <h2>CatPhotoApp</h2>
         <main>
@@ -9,19 +12,21 @@
             <!-- TODO: add link to cat photos-->
            <a href="#"><img src="images/cat2.jpg" alt="A cute can lying on its side."></a> 
            <h3>Cat Lists</h3>
-           <p>Things cat <em>love:</em></p>
-           <ul>
-            <li>cat nip</li>
-            <li>cuddles & pettings</li>
-            <li>fish</li>
-           </ul>
-           <img src="images/catnp.jpg" alt="">
-           <p>Things cats <strong>dislike:</strong></p>
-           <ol>
-            <li>bathing</li>
-            <li>flea treatment</li>
-            <li>vets</li>
-           </ol>
+           <div class="lists">
+            <p>Things cat <em>love:</em></p>
+            <ul>
+                <li>cat nip</li>
+                <li>cuddles & pettings</li>
+                <li>fish</li>
+            </ul>
+            <img src="images/catnp.jpg" alt="">
+            <p>Things cats <strong>dislike:</strong></p>
+            <ol>
+                <li>bathing</li>
+                <li>flea treatment</li>
+                <li>vets</li>
+            </ol>
+        </div>
            <img src="images/bath.webp" alt="">
            <form action="/submit-cat-photo">
             <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label><br>
@@ -34,5 +39,10 @@
 
            </form>
         </main>
+        <footer>
+            <p>
+                <small>No Copyright - <a href="https://freecodecamp.org" target="_blank">freeCodeCamp.org</a></small>
+            </p>
+        </footer>
     </body>
 </html>
